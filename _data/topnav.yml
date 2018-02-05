@@ -1,0 +1,22 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Avalon Media System
+      external_url: http://www.avalonmediasystem.org/
+    - title: GitHub
+      external_url: https://github.com/avalonmediasystem/avalon
+    - title: News
+      url: /news.html
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:
+    - title: Version
+      folderitems:
+        - title: Avalon 6
+          url: /avalon6_home.html
+        - title: Avalon 5
+          url: /avalon5_home.html

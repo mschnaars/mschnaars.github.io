@@ -1,0 +1,51 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Avalon 5 Sidebar
+  product: Avalon Media System
+  version: 5.x
+  folders:
+
+  - title: Sample Category 1
+    output: web
+    folderitems:
+
+    - title: Avalon 5 Homepage
+      url: /avalon5_home.html
+      output: web
+
+    - title: Sample 1
+      url: /avalon5_sample1.html
+      output: web
+
+    - title: Sample 2
+      url: /avalon5_sample2.html
+      output: web
+
+    - title: Sample 3
+      url: /avalon5_sample3.html
+      output: web
+
+    - title: Sample 4
+      url: /avalon5_sample4.html
+      output: web
+
+  - title: Sample Category 2
+    output: web
+    folderitems:
+
+    - title: Sample 5
+      url: /avalon5_sample5.html
+      output: web
+
+    - title: Sample 6
+      url: /avalon5_sample6.html
+      output: web
+
+    - title: Sample 7
+      url: /avalon5_sample7.html
+      output: web
+
+    - title: Sample 8
+      url: /avalon5_sample8.html
+      output: web
