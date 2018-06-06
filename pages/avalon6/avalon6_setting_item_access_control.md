@@ -19,7 +19,7 @@ Access to specific items is set manually when items are created.
 {% include image.html file="doc_images/access_control.png" alt="access control options" %}
 
 * _Available to the general public_: anyone can view this item, even if they are not logged in as a user.
-* _Logged in users only: _only logged-in users may view this item. The item will also not display in search results to the general public.
+* _Logged in users only_: only logged-in users may view this item. The item will also not display in search results to the general public.
 * _Collection staff only_: only logged-in collection staff may view this item, which includes Managers, Editors, and Depositors.
 
 Additionally, "Hide this item from search results" can be used to make an item available via URL only, and the item will not appear using browse or search. This can be a useful option if the person to whom access is being granted does not have a username or account with Avalon. The item will still be available to the general public (no login required), but access will only be available through a URL.
