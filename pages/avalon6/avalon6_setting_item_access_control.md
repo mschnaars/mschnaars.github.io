@@ -30,10 +30,10 @@ Beyond the basic access control levels defined above, special access can be give
 
 {% include image.html file="doc_images/special_access.png" alt="special access controls" %}
 
-* _Avalon User: _access to an item can be limited to individual users. Enter the username(s) to grant access to the item.
-* _Avalon Group: _access to an item can be limited to a pre-defined group of users, e.g. members of a class or department. Select the pre-defined group from the drop-down menu to grant access to the item. If a group needs to be added to the list, contact your Avalon group manager or system administrator.
-* _External Group: _access to an item can be limited to groups defined by external services, such as a Learning Management System like Canvas or an LDAP group.
-* _IP Address or Range: _access to an item can be limited to an IP address or range of addresses, e.g. a specific computer lab or group of devices.
+* _Avalon User_: access to an item can be limited to individual users. Enter the username(s) to grant access to the item.
+* _Avalon Group_: access to an item can be limited to a pre-defined group of users, e.g. members of a class or department. Select the pre-defined group from the drop-down menu to grant access to the item. If a group needs to be added to the list, contact your Avalon group manager or system administrator.
+* _External Group_: access to an item can be limited to groups defined by external services, such as a Learning Management System like Canvas or an LDAP group.
+* _IP Address or Range_: access to an item can be limited to an IP address or range of addresses, e.g. a specific computer lab or group of devices.
   * Examples:
     * 255.0.1.10
     * 255.0.1.10/21
