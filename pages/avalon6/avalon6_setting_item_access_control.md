@@ -1,6 +1,6 @@
 ---
 title: Setting Item Access Control
-summary: "Definitions of the default roles in Avalon and their allowable actions."
+summary: "Definitions of item access levels and instructions for assigning special access."
 sidebar: avalon6_sidebar
 permalink: avalon6_setting_item_access_control.html
 folder: avalon6
