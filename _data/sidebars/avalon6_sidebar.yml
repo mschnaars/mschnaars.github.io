@@ -50,3 +50,6 @@ entries:
       url: /avalon6_units_and_collections.html
       output: web
 
+    - title: Setting Item Access Controls
+      url: /avalon6_setting_item_access_controls.html
+      output: web
