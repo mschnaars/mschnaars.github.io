@@ -51,5 +51,5 @@ entries:
       output: web
 
     - title: Setting Item Access Controls
-      url: /avalon6_setting_item_access_controls.html
+      url: /avalon6_setting_item_access_control.html
       output: web
