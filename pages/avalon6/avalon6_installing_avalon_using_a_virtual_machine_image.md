@@ -151,7 +151,7 @@ As the samples are ingested, you will see new items being added to the collectio
 
 ## Building Your Own OVA File
 
-If you want to build your own OVA file follow the instructions on https://github.com/avalonmediasystem/avalon-packer
+If you want to build your own OVA file follow the instructions on [https://github.com/avalonmediasystem/avalon-packer](https://github.com/avalonmediasystem/avalon-packer)
 
 ---
 
