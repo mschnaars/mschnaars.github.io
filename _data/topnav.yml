@@ -16,7 +16,7 @@ topnav_dropdowns:
   folders:
     - title: Version
       folderitems:
+        - title: Avalon 7
+          url: /avalon7_home.html
         - title: Avalon 6
           url: /avalon6_home.html
-        - title: Avalon 5
-          url: /avalon5_home.html
