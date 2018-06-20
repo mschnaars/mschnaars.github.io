@@ -23,11 +23,11 @@ entries:
     output: web
     folderitems:
 
+    - title: Avalon 7
+      url: /avalon7_home.html
+      output: web
     - title: Avalon 6
       url: /avalon6_home.html
-      output: web
-    - title: Avalon 5
-      url: /avalon5_home.html
       output: web
 
 

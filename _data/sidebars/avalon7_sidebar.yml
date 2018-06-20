@@ -1,0 +1,55 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: Avalon 6 Sidebar
+  product: Avalon Media System
+  version: 6.x
+  folders:
+
+  - title: Getting Started
+    output: web
+    folderitems:
+
+    - title: Overview
+      url: /avalon7_home.html
+      output: web
+
+    - title: Supported Source Formats and Codecs
+      url: /avalon7_supported_source_formats_and_codecs.html
+      output: web
+
+  - title: Installing Avalon
+    output: web
+    folderitems:
+      
+    - title: System Requirements
+      url: /avalon7_system_requirements.html
+      output: web
+
+    - title: Manual Installation Instructions
+      url: /avalon7_manual_installation_instructions.html
+      output: web
+
+    - title: Installing Avalon Using Docker
+      url: /avalon7_installing_avalon_using_docker.html
+      output: web
+
+    - title: Installing Avalon Using a Virtual Machine Image
+      url: /avalon7_installing_avalon_using_a_virtual_machine_image.html
+      output: web
+
+  - title: Collection Management
+    output: web
+    folderitems:
+
+    - title: Collection Member Roles
+      url: /avalon7_collection_member_roles.html
+      output: web
+
+    - title: Units and Collections
+      url: /avalon7_units_and_collections.html
+      output: web
+
+    - title: Setting Item Access Control
+      url: /avalon7_setting_item_access_control.html
+      output: web
