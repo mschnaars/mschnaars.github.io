@@ -1,9 +1,9 @@
 # This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
 
 entries:
-- title: Avalon 6 Sidebar
+- title: Avalon 7 Sidebar
   product: Avalon Media System
-  version: 6.x
+  version: 7.x
   folders:
 
   - title: Getting Started
