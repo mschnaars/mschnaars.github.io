@@ -18,6 +18,31 @@ entries:
       url: /avalon6_supported_source_formats_and_codecs.html
       output: web
 
+  - title: Using Avalon
+    output: web
+    folderitems:
+    
+    - title: Accessibility
+      url: /avalon6_accessibility.html
+      output: web
+      
+      subfolders:
+      - title: Media Player
+        output: web
+        folderitems:
+        
+        - title: Adaptive Bitrate Streaming
+          url: /avalon6_adaptive_bitrate_streaming.html
+          output: web
+      
+      - title: Playlists
+        output: web
+        folderitems:
+        
+        - title: Playlist Tags
+          url: /avalon6_playlist_tags.html
+          output: web
+      
   - title: Installing Avalon
     output: web
     folderitems:
