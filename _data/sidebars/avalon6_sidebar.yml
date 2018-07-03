@@ -29,7 +29,7 @@ entries:
       subfolders:
       - title: Media Player
         output: web
-        folderitems:
+        subfolderitems:
         
         - title: Adaptive Bitrate Streaming
           url: /avalon6_adaptive_bitrate_streaming.html
