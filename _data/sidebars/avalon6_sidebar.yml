@@ -35,12 +35,13 @@ entries:
           url: /avalon6_adaptive_bitrate_streaming.html
           output: web
       
+      subfolders:
       - title: Playlists
         output: web
-        folderitems:
+        subfolderitems:
         
-        - title: Playlist Tags
-          url: /avalon6_playlist_tags.html
+        - title: Working with Playlists
+          url: /avalon6_working_with_playlists.html
           output: web
       
   - title: Installing Avalon
