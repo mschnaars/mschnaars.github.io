@@ -29,7 +29,7 @@ When an element is focused it will be surrounded by an outline to enhance its vi
 
 ### Skip to Main Content
 
-When using `TAB`, the first element of each page is a link titled "Skip to main content". This link immediately shifts the browser focus to the main content of the page, minimizing the number of times a user needs to press `TAB` to reach a page's most prominent elements. When viewing an audio or video page, the "Skip to main content" link shifts the browser focus directly to the `Play` button.
+When using `TAB`, the first element of each page is a link titled "Skip to main content". This link immediately shifts the browser focus to the main content of the page, minimizing the number of times a user needs to press `TAB` to reach a page's most prominent elements. When viewing an audio or video page, the "Skip to main content" link shifts the browser focus directly to the Play button.
 
 {% include image.html file="doc_images/accessibility_skip_content.png" alt="Skip to main content link" %}
 
