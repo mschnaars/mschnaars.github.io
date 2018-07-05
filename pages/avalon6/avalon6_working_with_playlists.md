@@ -17,8 +17,6 @@ Playlists in Avalon are limited to authenticated users only.
 * _Playlist item_: a range of time from a section of a media object added to a user's playlist
 * _Tag_: a label attached to a playlist for organization or identification
 
-### Icons
-
 ## Creating a Playlist
 
 1. Select the Playlist feature (located in the navigation bar).
@@ -34,7 +32,7 @@ Playlists in Avalon are limited to authenticated users only.
 
 1. Select the Playlist feature.
 2. Click the "Edit" button for the respective playlist.
-3. Click the Edit icon next to "Playlist Details".
+3. Click the Edit icon {% include inline_image.html file="avalon_icons/edit.png alt="Edit icon" %} next to "Playlist Details".
 4. Edit any of the values for Name, Description, Visibility, or Tags.
 5. Click "Save Changes".
 
