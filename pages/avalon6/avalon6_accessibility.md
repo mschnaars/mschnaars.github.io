@@ -55,3 +55,5 @@ When using `TAB`, the first element of each page is a link titled "Skip to main 
 The Stream Quality selector allows the user to `TAB` between available stream qualities and pressing `ENTER` to enable the desired quality.
 
 {% include image.html file="doc_images/accessibility_quality_selector.png" alt="Stream Quality selector when focused" %}
+
+{% include links.html %}

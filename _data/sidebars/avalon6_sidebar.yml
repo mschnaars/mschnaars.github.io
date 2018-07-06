@@ -25,8 +25,8 @@ entries:
     - title: Accessibility
       url: /avalon6_accessibility.html
       output: web
-      
       subfolders:
+        
       - title: Media Player
         output: web
         subfolderitems:
@@ -35,7 +35,6 @@ entries:
           url: /avalon6_adaptive_bitrate_streaming.html
           output: web
       
-      subfolders:
       - title: Playlists
         output: web
         subfolderitems:

@@ -41,3 +41,5 @@ Beyond the basic access control levels defined above, special access can be give
     * 2001:0db8:85a3:0000:0000:8a2e:0370:7334.
 
 Each type of special access can also be further controlled by setting a date range for access. This can be useful if access should be limited to a short time span (e.g. a week or a month) or a pre-determined set of dates (e.g. the duration of a semester or an eight-week course). Leaving these fields empty will set access control to be open-ended.
+
+{% include links.html %}

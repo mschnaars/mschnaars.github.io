@@ -21,3 +21,5 @@ When embedding audio files from an Avalon instance, the playback quality selecto
 {{site.data.alerts.end}}
 
 {% include image.html file="doc_images/embedded_audio_selector.png" alt="the quality selector is missing in the embedded audio player" %}
+
+{% include links.html %}
