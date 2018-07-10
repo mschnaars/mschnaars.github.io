@@ -47,6 +47,38 @@ entries:
           url: /avalon6_playlist_items.html
           output: web
 
+  - title: Administration
+    output: web
+    folderitems:
+
+    - title: Collection Member Roles
+      url: /avalon6_collection_member_roles.html
+      output: web
+
+    - title: Units and Collections
+      url: /avalon6_units_and_collections.html
+      output: web
+
+  - title: Adding Content
+    output: web
+    folderitems:
+
+    - title: Creating Items
+      url: /avalon6_creating_items.html
+      output: web
+
+    - title: Setting Item Access Control
+      url: /avalon6_setting_item_access_control.html
+      output: web
+
+    - title: Batch Ingest
+      output: web
+      subfolderitems:
+
+      - title: Uploading Content Using Batch Ingest
+        url: /avalon6_uploading_content_using_batch_ingest.html
+        output: web
+
   - title: Installing Avalon
     output: web
     folderitems:
@@ -65,20 +97,4 @@ entries:
 
     - title: Installing Avalon Using a Virtual Machine Image
       url: /avalon6_installing_avalon_using_a_virtual_machine_image.html
-      output: web
-
-  - title: Collection Management
-    output: web
-    folderitems:
-
-    - title: Collection Member Roles
-      url: /avalon6_collection_member_roles.html
-      output: web
-
-    - title: Units and Collections
-      url: /avalon6_units_and_collections.html
-      output: web
-
-    - title: Setting Item Access Control
-      url: /avalon6_setting_item_access_control.html
       output: web
