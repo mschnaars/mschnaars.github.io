@@ -778,6 +778,7 @@ dd {margin-left:20px;}
 .post-content img.inline {
     margin:0px;
     margin-bottom:6px;
+    border-style: none;
 }
 .panel-heading {
     font-weight: bold;

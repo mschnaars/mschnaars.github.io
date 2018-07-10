@@ -42,7 +42,11 @@ entries:
         - title: Working with Playlists
           url: /avalon6_working_with_playlists.html
           output: web
-      
+
+        - title: Playlist Items
+          url: /avalon6_playlist_items.html
+          output: web
+
   - title: Installing Avalon
     output: web
     folderitems:
