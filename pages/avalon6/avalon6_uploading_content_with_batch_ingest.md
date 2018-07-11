@@ -14,8 +14,7 @@ For help with resolving issues related to a failed Batch Ingest, see [Troublesh
 
 ### Manifest Template
 
-manifest_example.xlsx // Work this out later!!!
-
+[manifest_template.xslx](/downloads/manifest_template.xlsx)
 
 ### Definitions
 
@@ -65,7 +64,7 @@ The Manifest File is a spreadsheet (xls, xlsx, csv, or ods) listing the metadat
 
 The following is an example Manifest File displaying batch reference name, username, _Title_, and _Date Issued_ fields:
 
-{% include image.html file="doc_images/sample_manifest_1.png" alt="Manifest file displaying batch reference name, username, Title, and Date Issued" max-width="850 "%}
+{% include image.html file="doc_images/sample_manifest_1.png" alt="Manifest file displaying batch reference name, username, Title, and Date Issued" max-width="850" %}
 
 Continued, with _File_ and _Label_ fields for an item with multiple Content Files:
 

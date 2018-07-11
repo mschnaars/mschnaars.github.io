@@ -25,6 +25,7 @@ entries:
     - title: Accessibility
       url: /avalon6_accessibility.html
       output: web
+      
       subfolders:
         
       - title: Media Player
@@ -71,13 +72,15 @@ entries:
       url: /avalon6_setting_item_access_control.html
       output: web
 
-    - title: Batch Ingest
-      output: web
-      subfolderitems:
-
-      - title: Uploading Content With Batch Ingest
-        url: /avalon6_uploading_content_with_batch_ingest.html
+      subfolders:
+    
+      - title: Batch Ingest
         output: web
+        subfolderitems:
+
+        - title: Uploading Content With Batch Ingest
+          url: /avalon6_uploading_content_with_batch_ingest.html
+          output: web
 
   - title: Installing Avalon
     output: web
