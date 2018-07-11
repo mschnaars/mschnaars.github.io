@@ -65,11 +65,11 @@ The Manifest File is a spreadsheet (xls, xlsx, csv, or ods) listing the metadat
 
 The following is an example Manifest File displaying batch reference name, username, _Title_, and _Date Issued_ fields:
 
-{% include image.html file="doc_images/sample_manifest_1.png" alt="Manifest file displaying batch reference name, username, Title, and Date Issued" %}
+{% include image.html file="doc_images/sample_manifest_1.png" alt="Manifest file displaying batch reference name, username, Title, and Date Issued" max-width="850 "%}
 
 Continued, with _File_ and _Label_ fields for an item with multiple Content Files:
 
-{% include image.html file="doc_images/sample_manifest_2.png" alt="Manifest file displaying file paths and labels for an item with multiple content files" %}
+{% include image.html file="doc_images/sample_manifest_2.png" alt="Manifest file displaying file paths and labels for an item with multiple content files" max-width="850" %}
 
 ## Uploading an Ingest Package to the Dropbox
 
@@ -78,6 +78,6 @@ Continued, with _File_ and _Label_ fields for an item with multiple Content File
 3. Once the spreadsheet passes validation, an email notification will be sent to the user stating that the spreadsheet has been accepted.
 4. After all items listed on the Manifest File have been successfully ingested, an email notification will be sent to the user regarding completion of the Batch Ingest.
 
-!batchqueued.png!
+{% include image.html file="doc_images/batch_queued.png" alt="Example message after spreadsheet has been accepted" max-width="850" %}
 
-!successfulbatchingest.png!
+{% include image.html file="doc_images/batch_ingest_success.png" alt="Example message after successful batch ingest" max-width="850"%}
