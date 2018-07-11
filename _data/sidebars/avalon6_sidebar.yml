@@ -75,8 +75,8 @@ entries:
       output: web
       subfolderitems:
 
-      - title: Uploading Content Using Batch Ingest
-        url: /avalon6_uploading_content_using_batch_ingest.html
+      - title: Uploading Content With Batch Ingest
+        url: /avalon6_uploading_content_with_batch_ingest.html
         output: web
 
   - title: Installing Avalon
