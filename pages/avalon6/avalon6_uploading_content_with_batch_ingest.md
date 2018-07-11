@@ -65,11 +65,11 @@ The Manifest File is a spreadsheet (xls, xlsx, csv, or ods) listing the metadat
 
 The following is an example Manifest File displaying batch reference name, username, _Title_, and _Date Issued_ fields:
 
-!samplemanifest1.PNG!
+{% include image.html file="doc_images/sample_manifest_1.png" alt="Manifest file displaying batch reference name, username, Title, and Date Issued" %}
 
 Continued, with _File_ and _Label_ fields for an item with multiple Content Files:
 
-!samplemanifest2.PNG!
+{% include image.html file="doc_images/sample_manifest_2.png" alt="Manifest file displaying file paths and labels for an item with multiple content files" %}
 
 ## Uploading an Ingest Package to the Dropbox
 
