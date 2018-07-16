@@ -1,8 +1,8 @@
 ---
-title: Uploading Content With Batch Ingest
+title: Using Batch Ingest
 summary: "Instructions for adding large quantities of items simultaneously using Avalon's batch ingest functionality."
 sidebar: avalon6_sidebar
-permalink: avalon6_uploading_content_with_batch_ingest.html
+permalink: avalon6_using_batch_ingest.html
 folder: avalon6
 ---
 
@@ -12,18 +12,29 @@ Avalon's Batch Ingest functionality allows for the creation of many media object
 
 For help with resolving issues related to a failed Batch Ingest, see [Troubleshooting a Batch Ingest](avalon6_troubleshooting_a_batch_ingest).
 
+### Definitions
+
+Batch Ingest
+: {{site.data.definitions.batch_ingest}}
+
+Collection
+: {{site.data.definitions.collection}}
+
+Content File
+: {{site.data.definitions.content_file}}
+
+Ingest Package
+: {{site.data.definitions.ingest_package}}
+
+Item
+: {{site.data.definitions.item}}
+
+Manifest File
+: {{site.data.definitions.manifest_file}}
+
 ### Manifest Template
 
 [manifest_template.xslx](/downloads/manifest_template.xlsx)
-
-### Definitions
-
-* _Batch Ingest_ : creating multiple media items by uploading an Ingest Package to an Avalon dropbox.
-* _Ingest Package_ : combination of content and metadata, comprising one Manifest File and one or more Content Files.
-* _Manifest File_ : spreadsheet containing metadata for Content Files.
-* _Content File_ : single media file that is part of an Item; one or more Content Files make up an Item.
-* _Item_ : single media object accessible through an Avalon page.
-* _Collection_ : administrative grouping of Items in Avalon; Items belong to one and only one collection.
 
 ### Preliminaries
 
@@ -34,7 +45,7 @@ The Manifest File is a spreadsheet (xls, xlsx, csv, or ods) listing the metadat
 * _Title_
 * _Date Issued_
 * _File_
-* _Bibliographic ID_ : used in place of "Title" and "Date Issued".
+* _Bibliographic ID_ : used in place of _Title_ and _Date Issued_.
 
  For a description of all allowable fields, as well as instructions for adding structure or captions, see [Batch Ingest Package Format](avalon6_batch_ingest_package_format).
 
@@ -73,10 +84,12 @@ Continued, with _File_ and _Label_ fields for an item with multiple Content File
 ## Uploading an Ingest Package to the Dropbox
 
 1. Connect to the appropriate collection sub-directory; please see [Uploading Content to an Avalon Dropbox](avalon6_uploading_content_to_an_avalon_dropbox) for help with this process.
-2. Upload the Manifest File and all Content Files into the sub-directoy
-3. Once the spreadsheet passes validation, an email notification will be sent to the user stating that the spreadsheet has been accepted.
-4. After all items listed on the Manifest File have been successfully ingested, an email notification will be sent to the user regarding completion of the Batch Ingest.
+2. Upload the Manifest File and all Content Files into the sub-directory.
+
+Once the spreadsheet passes validation, the users receives an email notification stating that the spreadsheet has been accepted.
 
 {% include image.html file="doc_images/batch_queued.png" alt="Example message after spreadsheet has been accepted" max-width="850" %}
+
+After all items listed on the Manifest File have been successfully ingested, the users receives an email notification  regarding completion of the Batch Ingest.
 
 {% include image.html file="doc_images/batch_ingest_success.png" alt="Example message after successful batch ingest" max-width="850"%}

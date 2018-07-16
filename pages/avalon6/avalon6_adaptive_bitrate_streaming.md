@@ -17,7 +17,7 @@ The adaptive streaming option can be viewed using the Playback Quality selector 
 ## Embedded Audio
 
 {{site.data.alerts.important}}
-When embedding audio files from an Avalon instance, the playback quality selector has been removed from the audio player (see image). The playback quality is set to "auto" by default, and the removal of the selector only occurs in an embedded context.
+When embedding audio from an Avalon instance, the playback quality selector has been removed from the audio player (see image). The playback quality is set to "auto" by default, and the removal of the selector only occurs in an embedded context.
 {{site.data.alerts.end}}
 
 {% include image.html file="doc_images/embedded_audio_selector.png" alt="the quality selector is missing in the embedded audio player" %}

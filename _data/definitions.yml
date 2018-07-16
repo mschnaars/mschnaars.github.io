@@ -1,9 +1,25 @@
-elephant: "This is a sample definition."
+authenticated_user: "User accessing Avalon with a valid identifier and authentication combination supported by your institution."
 
-baseball: "Baseball is considered America's pasttime sport, though that may be more of a historical term than a current one. There's a lot more excitement about football than baseball. A baseball game is somewhat of a snooze to watch, for the most part."
+batch_ingest: "Functionality for creating multiple Items simultaneously by uploading an Ingest Package to an Avalon dropbox."
 
-basketball: "Basketball is a sport involving two teams of five players each competing to put a ball through a small circular rim 10 feet above the ground. Basketball requires players to be in top physical condition, since they spend most of the game running back and forth along a 94-foot-long floor."
+collection: "Grouping of Items for administrative and discovery purposes; Items belong to one and only one Collection."
 
-football: "No doubt the most fun sport to watch, football also manages to accrue the most injuries with the players. From concussions to blown knees, football players have short sport lives."
+collection_staff: "Individuals assigned specific roles for a given Collection, including administrators, managers, editors, and depositors; see [Collection Member Roles](avalon6_collection_member_roles) for more information."
 
-soccer: "If there's one sport that dominates the world landscape, it's soccer. However, US soccer fans are few and far between. Apart from the popularity of soccer during the World Cup, most people don't even know the name of the professional soccer organization in their area."
+content_file: "Digital audio/video file that composes part of an Item; one or more Content Files make up an Item."
+
+ingest_package: "Combination of audiovisual content and metadata, comprising one Manifest File and one or more Content Files."
+
+item: "A media object accessible through Avalon; Items comprise Files and metadata."
+
+manifest_file: "Spreadsheet containing metadata for Content Files."
+
+marker: "Visual timestamp on an Item's timeline."
+
+playlist: "Collection of Playlist Items."
+
+playlist_item: "Range of time from an Item added to a user's Playlist."
+
+tag: "Label attached to a Playlist for organization or identification."
+
+unit: "Grouping of Collections for administrative and discovery purposes; Collections belong to one and only one Unit."

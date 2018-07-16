@@ -888,7 +888,7 @@ span.soft {
 
 
 .post-content img {
-    margin: 12px 0px 3px 0px;
+    margin: 12px 0px 12px 0px;
     width: auto;
     height: auto;
     max-width: 100%;
@@ -921,13 +921,15 @@ span.soft {
 }
 
 /* this part adds an icon after external links, using FontAwesome*/
-a[href^="http://"]:after, a[href^="https://"]:after {
-    content: "\f08e";
-    font-family: FontAwesome;
-    font-weight: normal;
-    font-style: normal;
+a[href^="http://"]::after, a[href^="https://"]::after {
     display: inline-block;
-    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f35d";
     padding-left: 3px;
 }
 
