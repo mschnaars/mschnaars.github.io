@@ -3,12 +3,12 @@ title: Using Batch Ingest
 summary: "Instructions for adding large quantities of items simultaneously using Avalon's batch ingest functionality."
 sidebar: avalon6_sidebar
 permalink: avalon6_using_batch_ingest.html
-folder: avalon6
+folder: avalon6/adding_content
 ---
 
 ## Introduction
 
-Avalon's Batch Ingest functionality allows for the creation of many media objects simultaneously. Batch Ingest is useful for both well-documented collections and collections with minimal metadata. This guide explains how to form an Ingest Package and upload it to Avalon using Batch Ingest.
+Avalon's Batch Ingest functionality allows for the creation of many media objects simultaneously outside of the user interface. Batch Ingest is useful for both well-documented collections and collections with minimal metadata. A Batch Ingest process is initiated by uploading an Ingest Package to an Avalon dropbox. This guide explains how to form an Ingest Package and upload it to Avalon using Batch Ingest.
 
 For help with resolving issues related to a failed Batch Ingest, see [Troubleshooting a Batch Ingest](avalon6_troubleshooting_a_batch_ingest).
 
@@ -38,9 +38,9 @@ Manifest File
 
 ### Preliminaries
 
-When a new collection is created, Avalon creates a sub-directory with the collection name within the Avalon dropbox directory. Batch Ingest is initiated by uploading an Ingest Package to the collection sub-directory in the dropbox. To connect to the Avalon dropbox, see [Uploading Content to an Avalon Dropbox](avalon6_uploading_content_to_an_avalon_dropbox).
+When a new collection is created, Avalon creates a sub-directory with the collection name (substituting underscores for any blanks) within the Avalon dropbox directory. Batch Ingest is initiated by uploading an Ingest Package to the collection subdirectory in the dropbox--all items in a single Ingest Package will be uploaded to the same Collection. To connect to the Avalon dropbox, see [Uploading Content to an Avalon Dropbox](avalon6_uploading_content_to_an_avalon_dropbox).
 
-The Manifest File is a spreadsheet (xls, xlsx, csv, or ods) listing the metadata for the ingested items; download the manifest template provided above for a blank template. The Manifest File provides many metadata fields, but only a few fields are required: 
+The Manifest File is a spreadsheet (xls, xlsx, csv, or ods) listing the metadata for the Items to be created; download the manifest template provided above for a blank template. The Manifest File provides many metadata fields, but only a few fields are required: 
 
 * _Title_
 * _Date Issued_
@@ -52,7 +52,7 @@ The Manifest File is a spreadsheet (xls, xlsx, csv, or ods) listing the metadat
 ## Creating a Basic Manifest File
 
 1. Open the Manifest File that will list the metadata for the Content Files.
-2. Enter a reference name for the batch in Column A Row 1; this field is only for reference and should be convenient or descriptive.
+2. Enter a reference name for the batch in Column A Row 1; this field is only for reference and should be memorable or descriptive.
 3. Enter the email address/username of the batch submitter in Column B Row 1; this name must match an existing manager, editor, or depositor for the collection.
 4. Row 2 specifies potential metadata fields for each Item; if a field should be multi-valued (e.g. more than one subject, language, or Content file) duplicate the column using the same header.
 5. Enter data for a single Item beginning in Row 3. The minimum required fields for each item include:
@@ -71,7 +71,8 @@ The Manifest File is a spreadsheet (xls, xlsx, csv, or ods) listing the metadat
        * The path to the file, relative to the Manifest File.
        * The name of the file itself, including the file extension (e.g. video1.mp4, songB.aac).
        * Both path name and file name are case-sensitive; incorrect cases will result in a processing error.
-     * Example _File_ : A Manifest File and a folder titled "video_content" (with .mp4 Content Files) are uploaded to the dropbox collection "MyVideos". Therefore, each _File_ would follow the format of `video_content/videoname.mp4`. 
+     * Example _File_ : A Manifest File and a folder titled "video_content" (with .mp4 Content Files) are uploaded to the dropbox collection "MyVideos". Therefore, each _File_ would follow the format of `video_content/videoname.mp4`.
+6. Enter data for all additional Items in the subsequent rows.
 
 The following is an example Manifest File displaying batch reference name, username, _Title_, and _Date Issued_ fields:
 

@@ -3,7 +3,7 @@ title: Working with Playlists
 summary: "Instructions for creating and editing playlists, setting playlist visibility, and using tags."
 sidebar: avalon6_sidebar
 permalink: avalon6_working_with_playlists.html
-folder: avalon6
+folder: avalon6/using_avalon
 ---
 
 ## Introduction

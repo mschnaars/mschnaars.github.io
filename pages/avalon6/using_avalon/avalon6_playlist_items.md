@@ -3,7 +3,7 @@ title: Playlist Items
 summary: "Instructions for adding and editing playlist items within a playlist."
 sidebar: avalon6_sidebar
 permalink: avalon6_playlist_items.html
-folder: avalon6
+folder: avalon6/using_avalon
 ---
 
 ## Introduction

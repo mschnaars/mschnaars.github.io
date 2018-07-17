@@ -3,7 +3,7 @@ title: Units and Collections
 summary: "Definitions of the default roles in Avalon and their allowable actions."
 sidebar: avalon6_sidebar
 permalink: avalon6_units_and_collections.html
-folder: avalon6
+folder: avalon6/administration
 ---
 
 ## Definitions

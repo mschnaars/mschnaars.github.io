@@ -3,7 +3,7 @@ title: Adaptive Bitrate Streaming
 summary: "A description of adaptive bitrate streaming and its use by Avalon."
 sidebar: avalon6_sidebar
 permalink: avalon6_adaptive_bitrate_streaming.html
-folder: avalon6
+folder: avalon6/using_avalon
 ---
 
 ## Adaptive Streaming in the Media Player

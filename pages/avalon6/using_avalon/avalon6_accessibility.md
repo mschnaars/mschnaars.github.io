@@ -3,7 +3,7 @@ title: Accessibility
 summary: "A description of Avalon's support for screen readers and instructions for navigating Avalon using the keyboard."
 sidebar: avalon6_sidebar
 permalink: avalon6_accessibility.html
-folder: avalon6
+folder: avalon6/using_avalon
 ---
 
 ## General Accessibility

@@ -3,7 +3,7 @@ title: Collection Member Roles
 summary: "Definitions of the default roles in Avalon and their allowable actions."
 sidebar: avalon6_sidebar
 permalink: avalon6_collection_member_roles.html
-folder: avalon6
+folder: avalon6/administration
 ---
 
 ## Role Definitions

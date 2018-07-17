@@ -3,7 +3,7 @@ title: Troubleshooting Batch Ingest
 summary: "Tips for locating errors in a failed Batch Ingest and instructions for replaying a Manifest File."
 sidebar: avalon6_sidebar
 permalink: avalon6_troubleshooting_batch_ingest.html
-folder: avalon6
+folder: avalon6/adding_content
 ---
 
 ## Introduction

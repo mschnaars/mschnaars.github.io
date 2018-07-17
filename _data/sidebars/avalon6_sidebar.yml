@@ -82,11 +82,15 @@ entries:
           url: /avalon6_using_batch_ingest.html
           output: web
 
+        - title: Batch Ingest Package Format
+          url: /avalon6_batch_ingest_package_format.html
+          output: web
+
         - title: Troubleshooting Batch Ingest
           url: /avalon6_troubleshooting_batch_ingest.html
           output: web
 
-#  - title: Installing Avalon
+#  - title: Other
 #    output: web
 #    folderitems:
 #      
@@ -104,4 +108,8 @@ entries:
 #
 #    - title: Installing Avalon Using a Virtual Machine Image
 #      url: /avalon6_installing_avalon_using_a_virtual_machine_image.html
+#      output: web
+#
+#    - title: Derivative Files
+#      url: /avalon6_derivative_files.html
 #      output: web
