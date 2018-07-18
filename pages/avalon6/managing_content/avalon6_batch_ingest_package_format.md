@@ -3,7 +3,7 @@ title: Batch Ingest Package Format
 summary: "Detailed formatting and syntax requirements for Ingest Packages used in Batch Ingest."
 sidebar: avalon6_sidebar
 permalink: avalon6_batch_ingest_package_format.html
-folder: avalon6/adding_content
+folder: avalon6/managing_content
 ---
 
 ## Introduction

@@ -3,7 +3,7 @@ title: Using Batch Ingest
 summary: "Instructions for adding large quantities of items simultaneously using Avalon's batch ingest functionality."
 sidebar: avalon6_sidebar
 permalink: avalon6_using_batch_ingest.html
-folder: avalon6/adding_content
+folder: avalon6/managing_content
 ---
 
 ## Introduction

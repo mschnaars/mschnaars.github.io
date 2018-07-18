@@ -58,7 +58,7 @@ Once a Collection has been created, Managers and Editors may assign roles in tha
 5. To remove Collection Staff from a role, click on the "X" following the email address.
    
 {{site.data.alerts.warning}}
-Each Collection must have at least one Manager. Attempting to delete the only listed Manager will generate an error message and Avalon will prevent the deletion. Collections do not require Editors or Depositors.
+Each Collection must have at least one Manager. Attempting to delete the only listed Manager will generate an error message and Avalon will prevent the deletion.
 {{site.data.alerts.end}}
 
 ### Editing a Collection

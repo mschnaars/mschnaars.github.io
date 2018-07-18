@@ -1,9 +1,9 @@
 ---
-title: Setting Item Access Control
+title: Item Access Control
 summary: "Definitions of item access levels and instructions for assigning special access."
 sidebar: avalon6_sidebar
-permalink: avalon6_setting_item_access_control.html
-folder: avalon6/administration
+permalink: avalon6_item_access_control.html
+folder: avalon6/managing_content
 ---
 
 Different levels of access can be assigned at the Item level during an Item's creation. Assigning access control to Items can be useful when Items or Collections need special handling, due to sensitive content, privacy concerns, or legal requirements.
