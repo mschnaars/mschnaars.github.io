@@ -31,8 +31,8 @@ Marker
 
 ### Adding A Single Item
 
-1. View an Item in Avalon.
-2. Select Add to Playlist {% include inline_image.html file="icons/add_to_playlist.png" %} in the media player.
+1. View an item in Avalon.
+2. Select Add to Playlist {% include inline_icon.html icon="add_to_playlist" %} in the media player.
 3. In the dropdown, alter any of the following fields:
    * _Title_ : customize this Item's title that displays in the Playlist.
    * _Playlist_ : select a Playlist for this Item, or create a new Playlist for this Item.
@@ -46,7 +46,7 @@ Marker
 ### Adding A Multiple-Section Item
 
 1. View an Item in Avalon.
-2. Select one of the Add to Playlist {% include inline_image.html file="icons/add_to_playlist.png" %} options located in the structure below the media player.
+2. Select one of the Add to Playlist {% include inline_icon.html icon="add_to_playlist" %} options located in the structure below the media player.
 3. In the modal window, choose a Playlist for the Item(s) and select one of the following options:
    * _Create single item for section_ : one Playlist Item for each section.
    * _Create multiple items from subsections, if available_ : one Playlist Item for each subsection within a section.
@@ -62,7 +62,7 @@ Markers locate specific timestamps in an Item; they are similar to bookmarks in 
 
 To add a marker:
 
-1. Select Add Marker {% include inline_image.html file="icons/marker.png" %}.
+1. Select Add Marker {% include inline_icon.html icon="marker" %}.
 2. Add a title to the Marker.
 3. Adjust the timestamp offset, if necessary.
 4. Click "Add".
@@ -76,8 +76,8 @@ Markers can be edited or deleted by using the drop-down list of Markers when vie
 1. Select the Playlist feature.
 2. Click the "Edit" button for the respective Playlist.
 3. Edit Playlist Items in the following ways:
-   * Drag Reorder <i class="fas fa-arrows-alt-v"></i> and move an Item manually to reorder individual Playlist Items.
-   * Enter new values in the order field adjacent to Reorder <i class="fas fa-arrows-alt-v"></i> to reorder all Playlist Items simultaneously.
+   * Drag Reorder{% include inline_icon.html icon="reorder" %}  and move an Item manually to reorder individual Playlist Items.
+   * Enter new values in the order field adjacent to Reorder{% include inline_icon.html icon="reorder" %} to reorder all Playlist Items simultaneously.
    * Select an Item(s) and use the "Copy to..." or "Move to..." drop-down menus to move or copy a Playlist Item(s) to another Playlist.
    * Select Edit <i class="fa fa-edit"></i> for a Playlist Item to edit its Title, Start Time, End Time, or Description.
 

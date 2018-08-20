@@ -1,3 +1,36 @@
+@font-face {
+    font-family: 'MuseoSlab-500';
+    src: url('webfonts/374905_0_0.eot');
+    src: url('webfonts/374905_0_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/374905_0_0.woff2') format('woff2'),
+    url('webfonts/374905_0_0.woff') format('woff'),
+    url('webfonts/374905_0_0.ttf') format('truetype');
+}
+
+span.projectTitle {
+    font-family: MuseoSlab-500;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: MuseoSlab-500;
+    font-weight: normal;
+    font-style: normal;
+    color: #0A2326;
+}
+
+h2, h3, h4 {
+    font-family: MuseoSlab-500;
+    font-weight: normal;
+    font-style: normal;
+    color: #2a5459;
+}
+
 a {
     color: #80A590;
 }
@@ -7,10 +40,6 @@ a {
     border-left: 5px solid #FBB040;
     font-size:16px;
 }
-
-h2 {color: #0A2326; }
-h3 {color: #0A2326; }
-h4 {color: #0A2326; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     background-color: #2a5459;

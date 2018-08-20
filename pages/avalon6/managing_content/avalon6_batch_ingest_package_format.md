@@ -1,6 +1,6 @@
 ---
 title: Batch Ingest Package Format
-summary: "Detailed formatting and syntax requirements for Ingest Packages used in Batch Ingest."
+summary: "Detailed formatting and syntax requirements for ingest packages used in batch ingest."
 sidebar: avalon6_sidebar
 permalink: avalon6_batch_ingest_package_format.html
 folder: avalon6/managing_content
@@ -8,11 +8,11 @@ folder: avalon6/managing_content
 
 ## Introduction
 
-Avalon's Batch Ingest functionality allows for the creation of many Items simultaneously outside of the user interface. Batch Ingest is useful for both well-documented collections and collections with minimal metadata. A Batch Ingest process is initiated by uploading an Ingest Package to an Avalon dropbox. 
+Batch ingest creates many items simultaneously outside of the user interface. The process is useful for both well-documented collections and collections with minimal metadata. A batch ingest is initiated by uploading an ingest package to an Avalon dropbox. 
 
-The instructions below provide detailed format and syntax requirements for Manifest Files and the metadata fields contained within. Follow the instructions to ensure a successful Batch Ingest.
+The instructions below provide detailed format and syntax requirements for manifest files and item metadata. Follow the instructions to ensure a successful batch ingest.
 
-For help with resolving issues related to a failed Batch Ingest, see [Troubleshooting a Batch Ingest](avalon6_troubleshooting_a_batch_ingest).
+For help with resolving issues related to a failed batch ingest, see [Troubleshooting a Batch Ingest](avalon6_troubleshooting_a_batch_ingest).
 
 ### Definitions
 
@@ -40,7 +40,7 @@ Manifest File
 
 ### Preliminaries
 
-When a new collection is created, Avalon creates a subdirectory with the collection name within the Avalon dropbox directory. Batch Ingest is initiated by uploading an Ingest Package to the collection subdirectory in the dropbox--all items in a single Ingest Package will be uploaded to the same Collection. To connect to the Avalon dropbox, see [Uploading Content to an Avalon Dropbox](avalon6_uploading_content_to_an_avalon_dropbox).
+When a new collection is created, Avalon creates a subdirectory using the collection name within the Avalon dropbox directory. Batch ingest is initiated by uploading an ingest package to the collection subdirectory in the dropbox--all items in a single ingest package will be uploaded to the same collection. To connect to the Avalon dropbox, see [Uploading Content to an Avalon Dropbox](avalon6_uploading_content_to_an_avalon_dropbox).
 
 ## Manifest File Format
 
@@ -48,14 +48,13 @@ The following is a simple package that has been uploaded to an Avalon dropbox su
 
 {% include image.html file="doc_images/batch_layout.png" alt="Layout of an uploaded Ingest Package" max-width="850" %}
 
-The Manifest File is a spreadsheet (xls, xlsx, csv, or ods) containing the metadata for the Items to be created, as well as the names of the Content Files that make up each Item. In the above image, the Manifest File is named `batch_manifest.xlsx`. 
+The manifest file is a spreadsheet (xls, xlsx, csv, or ods) containing the metadata for the items to be created, as well as the names of the content files that make up each item. In the above image, the manifest file is named `batch_manifest.xlsx`. 
 
 {{site.data.alerts.important}}
 Neither the spreadsheet filename nor any directory/folder names can contain blanks--substitute underscores for any blanks.
 {{site.data.alerts.end}}
 
-
-Example Manifest File:
+Example manifest file:
 
 |----------------------|-----------------------|-----------|-----------|-----------------|
 |     |A               |B                      |C          |D          |E                |
@@ -66,17 +65,20 @@ Example Manifest File:
 |**4**|789101          |Test Item 2            |Anonymous  |1951       |content/file2.mp4|
 |----------------------|-----------------------|-----------|-----------|-----------------|
 
-__Row 1, Column A__ contains a reference name for the batch; this field is only for reference and should be memorable or descriptive.
+__Row 1, Column A__
+: Reference name for the batch; this field for reference only and should be memorable or descriptive.
 
-__Row 1, Column B__ contains the submitter's email address (or username, depending on the system's configuration) to be used for notifications and exceptions; this name must match an existing Manager, Editor, or Depositor for the Collection.
+__Row 1, Column B__
+: Username/email address of the batch submitter; this name must match an existing manager, editor, or depositor for the collection.
 
-__Row 2__ specifies the names of the metadata fields supplied in the following rows. At minimum, _Title_, _Date Issued_, _and _File_ are required. Each subsequent row represents a single Item to be created in Avalon. Metadata values are specified first, followed by a list of Content Files to be attached to each Item. 
+__Row 2, All Columns__
+: Metadata field names for items; at minimum, __Title__, __Date Issued__, and __File__ are required. 
+
+Each subsequent row (__Row 3__ and beyond) represents a single item in Avalon.
 
 {{site.data.alerts.important}}
-Make sure none of the field names in row 2 have leading or trailing blanks, or the field names will not be recognized by Avalon and will report an error.
+None of the field names in <b>Row 2</b> may contain leading or trailing blanks--the field names will not be recognized by Avalon and will report an error.
 {{site.data.alerts.end}}
-
-Content Files listed in the Manifest File must have the correct path noted for where those files are located in the Avalon dropbox, relative to the Manifest File. Additionally, all Content Files must include a file extension. If necessary, include any directories or subdirectories (note the file paths listed in column E in the above example).
 
 Multivalued fields are specified by multiple columns with the same header, e.g. _Topical Subject_ in the following example:
 

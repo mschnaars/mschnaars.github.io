@@ -25,11 +25,11 @@ Users can use the keyboard to navigate the Avalon Media System interface.
 
 When an element is focused it will be surrounded by an outline to enhance its visibility.
 
-{% include image.html file="doc_images/accessibility_element_focus.png" alt="a focused element" %}
+{% include image.html file="doc_images/accessibility_element_focus.png" alt="A focused element" %}
 
 ### Skip to Main Content
 
-When using `TAB`, the first element of each page is a link titled "Skip to main content". This link immediately shifts the browser focus to the main content of the page, minimizing the number of times a user needs to press `TAB` to reach a page's most prominent elements. When viewing an audio or video page, the "Skip to main content" link shifts the browser focus directly to the Play button.
+When using `TAB`, the first element of each page is a link titled "Skip to main content". This link immediately shifts focus to the main content of the page. When viewing an audio or video page, "Skip to main content" shifts focus directly to Play {% include inline_icon.html icon="play" %}.
 
 {% include image.html file="doc_images/accessibility_skip_content.png" alt="Skip to main content link" %}
 
@@ -37,22 +37,14 @@ When using `TAB`, the first element of each page is a link titled "Skip to main 
 
 ### Keyboard Access
 
-* `TAB`: move forward through each button/element on the player:
-  * Play/Pause
-  * Track Scrubber
-  * Magnify/Minimize Scrubber
-  * Volume
-  * Stream Quality
-  * Create Thumbnail (collection staff only)
-  * Add to Playlist (logged-in users only)
-  * Fullscreen
+* `TAB`: move forward through each button/element on the player (see [Media Player Controls](avalon6_media_player_controls)).
 * `SHIFT+TAB`: move backward through each button/element on the player.
 * `ENTER`: trigger a button/element's behavior.
-* `SPACEBAR`: when any of the player controls are focused, toggle between Play and Pause.
-* `LEFT/RIGHT ARROW`: when any of the player controls are focused, scrub forward or backward through the track timeline.
-* `UP/DOWN ARROW`: when any of the player controls are focused, increase or decrease volume.
+* `SPACEBAR`: when any of the player controls are focused, toggle Play/Pause.
+* `LEFT/RIGHT ARROW`: when any of the player controls are focused, scrub forward/backward through the track timeline.
+* `UP/DOWN ARROW`: when any of the player controls are focused, increase/decrease volume.
 
-The Stream Quality selector allows the user to `TAB` between available stream qualities and pressing `ENTER` to enable the desired quality.
+Stream Quality {% include inline_icon.html icon="stream_quality" %} allows the user to `TAB` between available stream qualities and `ENTER` the desired quality.
 
 {% include image.html file="doc_images/accessibility_quality_selector.png" alt="Stream Quality selector when focused" %}
 

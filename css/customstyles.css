@@ -780,6 +780,15 @@ dd {margin-left:20px;}
     margin-bottom:6px;
     border-style: none;
 }
+
+.svg-icon {
+    display: inline-flex;
+    align-self: center;
+    vertical-align: text-top;
+    height: 1em;
+    width: 1em;
+}
+
 .panel-heading {
     font-weight: bold;
 }

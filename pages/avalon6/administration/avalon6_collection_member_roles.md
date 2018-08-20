@@ -8,40 +8,45 @@ folder: avalon6/administration
 
 ## Role Definitions
 
-Avalon has 4 default roles:
+__Administrator__
+: Administrators are a select few who have responsibility for providing an Avalon-based service. Avalon administrators maintain the list of units and assign users to the manager role; additionally, administrators are the only collection staff members who can see and modify items in any collection. This role is typically limited to system admins and administrative unit managers. Administrators do not need to be added to individual collections since they can view, edit, and delete any items in an Avalon instance. 
 
-* __Administrator__ - Administrators are a select few who have responsibility for providing an Avalon-based service. The Administrators assign people to the Manager role and maintain the list of Units. Administrators are the only ones who can see and modify Items in any collection. This role is typically limited to system administrators and administrative unit managers. Administrators do not need to be added to individual Collections since they can view, edit, and delete any Items in Avalon. 
-* __Manager__ - Managers are those within a given Unit who have overall accountability for building Collections within Avalon. Managers create Collections and assign Editor and Depositor roles for those Collections. They set the default access controls for Items added to a Collection and intervene when a published Item needs to be revised or deleted. 
-* __Editor__ - Editors have supervisory responsibility for the ingest and description process (i.e. collection building). They can assign Depositor roles, change the name or description of a Collection, and modify access controls for individual Items in a collection.
-* __Depositor__ - Depositors add and describe media into Collections. They can publish Items but not unpublish. They can only modify or delete unpublished Items.
+__Manager__
+: Managers have overall accountability for building collections within a given unit. Managers assign editor/depositor roles, create collections, set default access controls for collections, and intervene when a published item needs revision or removal.
 
-Permissions are hierarchical (i.e. an Editor can do anything a Depositor can do, a Manager can do anything Editors and Depositors can do, an Administrator can do anything).
+__Editor__
+: Editors have supervisory responsibility for item ingest and description (i.e. collection building). They can assign depositor roles, edit basic collection information, and modify access controls for individual items.
+
+__Depositor__
+: Depositors have primary responsibility for item ingest and description (i.e. data entry). They can publish items (but not unpublish) and  modify or delete unpublished items.
 
 ## Role Permissions
+
+Permissions are hierarchical--editors can perform all depositor tasks, managers can perform editor/depositor tasks, and administrator can perform all tasks.
 
 |--------------------------------------|---------------|---------|--------|-----------|
 | Action                               | Administrator | Manager | Editor | Depositor |
 |:-------------------------------------|:-------------:|:-------:|:------:|:---------:|
-| Create administrative Units          | X             |         |        |           |
-| View all Collections                 | X             |         |        |           |
-| Create Collections                   | X             | X       |        |           |
-| Edit Collection information          | X             | X       | X      |           |
-| Set default Collection access control| X             | X       |        |           |
-| Delete Collections                   | X             | X       |        |           |
-| Manage Groups                        | X             |         |        |           |
-| Add/remove Managers                  | X             |         |        |           |
-| Add/remove Editors                   | X             | X       |        |           |
-| Add/remove Depositors                | X             | X       | X      |           |
-| Add Items                            | X             | X       | X      | X         |
-| Set Item access control              | X             | X       | X      |           |
+| Create administrative units          | X             |         |        |           |
+| View all collections                 | X             |         |        |           |
+| Create collections                   | X             | X       |        |           |
+| Edit collection information          | X             | X       | X      |           |
+| Set default collection access control| X             | X       |        |           |
+| Delete collections                   | X             | X       |        |           |
+| Manage groups                        | X             |         |        |           |
+| Add/remove managers                  | X             |         |        |           |
+| Add/remove editors                   | X             | X       |        |           |
+| Add/remove depositors                | X             | X       | X      |           |
+| Add items                            | X             | X       | X      | X         |
+| Set item access control              | X             | X       | X      |           |
 | Add metadata                         | X             | X       | X      | X         |
-| Publish Items                        | X             | X       | X      | X         |
-| Edit published Items                 | X             | X       |        |           |
-| Delete published Items               | X             | X       |        |           |
-| Unpublish Items                      | X             | X       |        |           |
-| Edit unpublished Items               | X             | X       | X      | X         |
-| Delete unpublished Items             | X             | X       | X      | X         |
-| Move Items to other Collections      | X             | X       |        |           |
+| Publish items                        | X             | X       | X      | X         |
+| Edit published items                 | X             | X       |        |           |
+| Delete published items               | X             | X       |        |           |
+| Unpublish items                      | X             | X       |        |           |
+| Edit unpublished items               | X             | X       | X      | X         |
+| Delete unpublished items             | X             | X       | X      | X         |
+| Move items to other collections      | X             | X       |        |           |
 | Batch ingest                         | X             | X       | X      | X         |
 | View administrative metadata         | X             | X       | X      | X         |
 |--------------------------------------|---------------|---------|--------|-----------|

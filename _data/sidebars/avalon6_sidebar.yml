@@ -31,7 +31,11 @@ entries:
       - title: Media Player
         output: web
         subfolderitems:
-        
+
+        - title: Media Player Controls
+          url: /avalon6_media_player_controls.html
+          output: web
+
         - title: Adaptive Bitrate Streaming
           url: /avalon6_adaptive_bitrate_streaming.html
           output: web

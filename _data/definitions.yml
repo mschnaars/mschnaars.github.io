@@ -1,25 +1,25 @@
 authenticated_user: "User accessing Avalon with a valid identifier and authentication combination supported by your institution."
 
-batch_ingest: "Functionality for creating multiple Items simultaneously by uploading an Ingest Package to an Avalon dropbox."
+batch_ingest: "Functionality for creating multiple items simultaneously by uploading an ingest package to an Avalon dropbox."
 
-collection: "Grouping of Items for administrative and discovery purposes; Items belong to one and only one Collection."
+collection: "Grouping of items for administrative and discovery purposes; items belong to one and only one collection."
 
-collection_staff: "Individuals assigned specific roles for a given Collection, including administrators, managers, editors, and depositors; see [Collection Member Roles](avalon6_collection_member_roles) for more information."
+collection_staff: "Individuals assigned specific roles for a given collection, including administrators, managers, editors, and depositors; see [Collection Member Roles](avalon6_collection_member_roles) for more information."
 
-content_file: "Digital audio/video file that composes part of an Item; one or more Content Files make up an Item."
+content_file: "Digital audio/video file that composes part of an item; one or more content files make up an item."
 
-ingest_package: "Combination of audiovisual content and metadata, comprising one Manifest File and one or more Content Files."
+ingest_package: "Combination of audiovisual content and metadata, comprising one manifest file and one or more content files."
 
-item: "A media object accessible through Avalon; Items comprise Files and metadata."
+item: "Media object accessible through Avalon; items comprise files and metadata."
 
-manifest_file: "Spreadsheet containing metadata for Content Files."
+manifest_file: "Spreadsheet containing metadata for content files."
 
-marker: "Visual timestamp on an Item's timeline."
+marker: "Visual timestamp on an item's timeline."
 
-playlist: "Collection of Playlist Items."
+playlist: "Collection of playlist items."
 
-playlist_item: "Range of time from an Item added to a user's Playlist."
+playlist_item: "Range of time from an item added to a user's playlist."
 
-tag: "Label attached to a Playlist for organization or identification."
+tag: "Label attached to a playlist for organization or identification."
 
-unit: "Grouping of Collections for administrative and discovery purposes; Collections belong to one and only one Unit."
+unit: "Grouping of collections for administrative and discovery purposes; collections belong to one and only one unit."

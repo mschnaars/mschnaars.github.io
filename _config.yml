@@ -6,13 +6,11 @@ output: web
 topnav_title: Avalon Media System Documentation
 # this appears on the top navigation bar next to the home button
 
-site_title: Avalon Media System
+site_title: Avalon Media System Documentation
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
 company_name: Avalon Media System
 # this appears in the footer
-
-# github_editme_path: tomjoht/documentation-theme-jekyll/blob/gh-pages/
 # if you're using Github, provide the basepath to the branch you've created for reviews, following the sample here. if not, leave this value blank.
 
 disqus_shortname:
@@ -101,7 +99,6 @@ defaults:
 sidebars:
 - home_sidebar
 - avalon6_sidebar
-- av5_sidebar
 - other
 
 description: The Avalon Media System is an open source system for managing and providing access to large collections of digital audio and video. The freely available system enables libraries and archives to easily curate, distribute and provide online access to their collections for purposes of teaching, learning and research.
