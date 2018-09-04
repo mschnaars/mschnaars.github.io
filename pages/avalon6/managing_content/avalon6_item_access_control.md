@@ -21,16 +21,18 @@ Collection Staff
 Item
 : {{site.data.definitions.item}}
 
-## Item Discovery
+## Default Access Control
+
+{% include image.html file="doc_images/access_control.png" alt="access control options" max-width="850" %}
+
+### Item Discovery
 
 __Hide this item from search results__
 : The item is available via URL only, and does not appear through search or browse. Choose this option when the item needs restriction, but the person to whom access is being granted is not an authenticated user.
 
-## Item Access
+### Item Access
 
 Access control is assigned when items are created.
-
-{% include image.html file="doc_images/access_control.png" alt="access control options" %}
 
 __Available to the general public__
 : Anyone can view this item, even if they are not logged in as an authenticated user.
@@ -41,11 +43,11 @@ __Logged in users only__
 __Collection staff only__
 : Only collection staff may view this item.
 
-## Assign Special Access
+## Special Access
 
 Beyond the access control levels defined above, special access can be given to individuals, specific groups of users, and certain IP addresses or range of IP addresses. Assigning special access is useful when individual items need special handling, due to sensitive content, privacy concerns, legal requirements, etc.
 
-{% include image.html file="doc_images/special_access.png" alt="special access controls" %}
+{% include image.html file="doc_images/special_access.png" alt="special access controls" max-width="850" %}
 
 __Avalon User__
 : Access is granted to individual authenticated users. Enter a username/email address to grant access.

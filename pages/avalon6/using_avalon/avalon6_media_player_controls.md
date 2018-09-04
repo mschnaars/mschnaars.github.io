@@ -4,6 +4,7 @@ summary: "A description of the controls in Avalon's media player."
 sidebar: avalon6_sidebar
 permalink: avalon6_media_player_controls.html
 folder: avalon6/using_avalon
+toc: false
 ---
 
 ## Media Player Controls

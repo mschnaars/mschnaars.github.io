@@ -25,13 +25,13 @@ Users can use the keyboard to navigate the Avalon Media System interface.
 
 When an element is focused it will be surrounded by an outline to enhance its visibility.
 
-{% include image.html file="doc_images/accessibility_element_focus.png" alt="A focused element" %}
+{% include image.html file="doc_images/accessibility_element_focus.png" alt="A focused element" max-width="200" %}
 
 ### Skip to Main Content
 
 When using `TAB`, the first element of each page is a link titled "Skip to main content". This link immediately shifts focus to the main content of the page. When viewing an audio or video page, "Skip to main content" shifts focus directly to Play {% include inline_icon.html icon="play" %}.
 
-{% include image.html file="doc_images/accessibility_skip_content.png" alt="Skip to main content link" %}
+{% include image.html file="doc_images/accessibility_skip_content.png" alt="Skip to main content link" max-width="850" %}
 
 ## Player Accessibility
 
@@ -46,6 +46,6 @@ When using `TAB`, the first element of each page is a link titled "Skip to main 
 
 Stream Quality {% include inline_icon.html icon="stream_quality" %} allows the user to `TAB` between available stream qualities and `ENTER` the desired quality.
 
-{% include image.html file="doc_images/accessibility_quality_selector.png" alt="Stream Quality selector when focused" %}
+{% include image.html file="doc_images/accessibility_quality_selector.png" alt="Stream Quality selector when focused" max-width="200" %}
 
 {% include links.html %}

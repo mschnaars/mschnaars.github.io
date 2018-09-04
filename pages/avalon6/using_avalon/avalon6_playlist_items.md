@@ -6,17 +6,14 @@ permalink: avalon6_playlist_items.html
 folder: avalon6/using_avalon
 ---
 
-## Introduction
+{{site.data.alerts.info}}
+Playlists are available to authenticated users only.
+{{site.data.alerts.end}}
 
-Playlists in Avalon are limited to Authenticated Users only.
-
-### Definitions
+## Definitions
 
 Authenticated User
 : {{site.data.definitions.authenticated_user}}
-
-Item
-: {{site.data.definitions.item}}
 
 Playlist
 : {{site.data.definitions.playlist}}
@@ -31,56 +28,59 @@ Marker
 
 ### Adding A Single Item
 
-1. View an item in Avalon.
-2. Select Add to Playlist {% include inline_icon.html icon="add_to_playlist" %} in the media player.
-3. In the dropdown, alter any of the following fields:
-   * _Title_ : customize this Item's title that displays in the Playlist.
-   * _Playlist_ : select a Playlist for this Item, or create a new Playlist for this Item.
-   * _Start_ : edit the timestamp marking the beginning of this Item's playback.
-   * _End_ : edit the timestamp marking the end of this Item's playback.
-   * _Description_ : add an optional description for this Item.
-4. Click "Add".
+1. View an item.
+2. Select __Add to Playlist__ {% include inline_icon.html icon="add_to_playlist" %} in the media player.
+3. Enter new values for any of the following:
+   * __Title__ : customize the title that displays in the playlist.
+   * __Playlist__ : select a playlist or create a new playlist.
+   * __Start__ : edit the timestamp where playback begins.
+   * __End__ : edit the timestamp where playback ends.
+   * __Description__ : add an optional description.
+4. Select __Add__.
 
-{% include image.html file="doc_images/add_to_playlist.png" alt="Adding an item to a playlist" max-width="850" %}
+{% include image.html file="doc_images/add_to_playlist.png" alt="Adding an item to a playlist" %}
 
 ### Adding A Multiple-Section Item
 
-1. View an Item in Avalon.
-2. Select one of the Add to Playlist {% include inline_icon.html icon="add_to_playlist" %} options located in the structure below the media player.
-3. In the modal window, choose a Playlist for the Item(s) and select one of the following options:
-   * _Create single item for section_ : one Playlist Item for each section.
-   * _Create multiple items from subsections, if available_ : one Playlist Item for each subsection within a section.
-4. Click "Add to Playlist".
+1. View an item.
+2. Select one of the __Add to Playlist__ {% include inline_icon.html icon="add_to_playlist" %} options located in the item structure below the media player.
+3. Choose a playlist for the item.
+4. Choose one of the following options:
+   * _Create single item for section_ : one playlist item for each section of the item.
+   * _Create multiple items from subsections, if available_ : one playlist item for each subsection.
+4. Select __Add to Playlist__.
 
-{% include image.html file="doc_images/add_section.png" alt="Adding multiple-section items to a playlist" max-width="850" %}
+{% include image.html file="doc_images/add_section.png" alt="Add to Playlist option within the item structure" %}
 
-{% include image.html file="doc_images/add_modal.png" alt="Modal window for adding multiple-section items to a playlist" max-width="850" %}
+{% include image.html file="doc_images/add_modal.png" alt="Creating multiple playlist items from a single item" %}
 
 ## Using Markers
 
-Markers locate specific timestamps in an Item; they are similar to bookmarks in other applications. Markers can only be added while viewing Playlist Items within a Playlist, and they can only be added by the Playlist creator. 
+Similar to bookmarks, markers create an easy way to locate specific moments in an item. They can be added when viewing playlist items in a playlist.
 
 To add a marker:
 
-1. Select Add Marker {% include inline_icon.html icon="marker" %}.
-2. Add a title to the Marker.
-3. Adjust the timestamp offset, if necessary.
-4. Click "Add".
+1. View a playlist item.
+2. Select __Add Marker__ {% include inline_icon.html icon="marker" %} in the media player.
+3. Enter a __Title__.
+4. Edit the timestamp if necessary.
+5. Select "Add".
 
-Markers can be edited or deleted by using the drop-down list of Markers when viewing the playlist item. If the playlist's visibility is shareable (by link or public), Markers will be usable by other viewers.
+Markers can be edited or deleted within the marker section located below the media player.
 
-{% include image.html file="doc_images/marker.png" max-width="850" %}
+{% include image.html file="doc_images/marker.png" %}
 
 ## Editing Playlist Items
 
-1. Select the Playlist feature.
-2. Click the "Edit" button for the respective Playlist.
-3. Edit Playlist Items in the following ways:
-   * Drag Reorder{% include inline_icon.html icon="reorder" %}  and move an Item manually to reorder individual Playlist Items.
-   * Enter new values in the order field adjacent to Reorder{% include inline_icon.html icon="reorder" %} to reorder all Playlist Items simultaneously.
-   * Select an Item(s) and use the "Copy to..." or "Move to..." drop-down menus to move or copy a Playlist Item(s) to another Playlist.
-   * Select Edit <i class="fa fa-edit"></i> for a Playlist Item to edit its Title, Start Time, End Time, or Description.
+1. Go to __Playlists__.
+2. Select __Edit__ {% include inline_icon.html icon="edit" %} for a playlist.
+3. Edit playlist items:
+   * Select Edit {% include inline_icon.html icon="edit" %} for a playlist item to edit its __Title__, __Start Time__, __End Time__, or __Description__.
+   * Select and drag __Reorder__ {% include inline_icon.html icon="reorder" %} to rearrange playlist items manually.
+   * Enter new values in the field adjacent to Reorder {% include inline_icon.html icon="reorder" %} to rearrange all playlist items at the same time.
+   * Select multiple items and choose a playlist using __Copy to...__ to create a copies in another playlist.
+   * Select multiple items and choose a playlist using __Move to...__ to move items out of one playlist and into another.
 
-{% include image.html file="doc_images/edit_playlist_item.png" alt="Editing playlist items" max-width="850" %}
+{% include image.html file="doc_images/edit_playlist_item.png" alt="Editing playlist items" max-width="800" %}
 
 {% include links.html %}

@@ -12,7 +12,7 @@ ingest_package: "Combination of audiovisual content and metadata, comprising one
 
 item: "Media object accessible through Avalon; items comprise files and metadata."
 
-manifest_file: "Spreadsheet containing metadata for content files."
+manifest_file: "Spreadsheet (.xls, .xlsx, .csv, .ods) containing metadata for content files."
 
 marker: "Visual timestamp on an item's timeline."
 

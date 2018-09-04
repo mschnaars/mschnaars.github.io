@@ -58,8 +58,6 @@ __Share by link__
 
 ### Share by Link
 
-To share a playlist:
-
 1. Go to __Playlists__. 
 2. Select a playlist.
 3. Select __Share__ {% include inline_icon.html icon="share" %} to display the playlist URL.

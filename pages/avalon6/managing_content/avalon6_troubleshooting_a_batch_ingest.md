@@ -8,7 +8,7 @@ folder: avalon6/managing_content
 
 ## Introduction
 
-Batch Ingest may fail for a variety of reasons, after which the Manifest File can be replayed with corrected information.
+Batch ingest may fail for a variety of reasons, after which the Manifest File can be replayed with corrected information.
 
 For help with creating an Ingest Package and starting a Batch Ingest, see [Uploading Content With Batch Ingest](avalon6_uploading_content_with_batch_ingest).
 

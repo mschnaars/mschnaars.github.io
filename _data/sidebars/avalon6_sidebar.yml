@@ -72,6 +72,10 @@ entries:
       url: /avalon6_creating_items.html
       output: web
 
+    - title: Connecting to a Dropbox
+      url: /avalon6_connecting_to_a_dropbox.html
+      output: web
+
     - title: Item Access Control
       url: /avalon6_item_access_control.html
       output: web
