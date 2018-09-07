@@ -41,10 +41,10 @@ Check out the following resources for more in-depth explanations on formatting:
 * [Kramdown](https://kramdown.gettalong.org/)
 * [Tom Johnson's documentation theme](https://idratherbewriting.com/documentation-theme-jekyll/)
 
-Also, writing documents in a clear and consistent style greatly helps with readability. Check out[Microsoft's style guide](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/) on technical writing, especially when referring to onscreen UI elements like buttons or icons. For a quick summary:
+Also, writing documents in a clear and consistent style greatly helps with readability. Check out [Microsoft's style guide](https://docs.microsoft.com/en-us/style-guide/procedures-instructions/) on technical writing, especially when referring to onscreen UI elements like buttons or icons. For a quick summary:
 
 * Use words that are interface-neutral--i.e. say "Select" instead of "Click" or "Touch"
-* When referencing an onscreen element, such as a button, menu, or heading, emphasize the element using <b>Bold</b> or __Bold__. 
+* When referencing an onscreen element, such as a button, menu, or heading, emphasize the element using `<b>Bold</b>` or `__Bold__`. 
 
 ### Frontmatter
 
