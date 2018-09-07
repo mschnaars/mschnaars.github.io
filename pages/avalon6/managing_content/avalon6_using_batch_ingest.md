@@ -8,7 +8,8 @@ folder: avalon6/managing_content
 
 Batch ingest allows the creation of many media objects simultaneously outside of the Avalon user interface. The process is initiated by uploading an ingest package to an Avalon dropbox.
 
-For help resolving a failed batch ingest, see [Troubleshooting a Batch Ingest](avalon6_troubleshooting_a_batch_ingest). For detailed information about the manifest file, see [Batch Ingest Package Format](avalon6_batch_ingest_package_format).
+* For help resolving a failed batch ingest, see [Troubleshooting a Batch Ingest](avalon6_troubleshooting_a_batch_ingest). 
+* For detailed information about the manifest file, see [Batch Ingest Package Format](avalon6_batch_ingest_package_format).
 
 ## Definitions
 

@@ -1,18 +1,17 @@
 ---
 title: Troubleshooting Batch Ingest
-summary: "Tips for locating errors in a failed Batch Ingest and instructions for replaying a Manifest File."
+summary: "Tips for locating errors in a failed batch ingest and instructions for replaying a manifest file."
 sidebar: avalon6_sidebar
 permalink: avalon6_troubleshooting_batch_ingest.html
 folder: avalon6/managing_content
 ---
 
-## Introduction
+Batch ingest can fail for a variety of reasons, including errors with the manifest file and errors with individual items. Reports sent to the submitter can help pinpoint and correct errors, after which a manifest file can be replayed to rerun the batch ingest.
 
-Batch ingest may fail for a variety of reasons, after which the Manifest File can be replayed with corrected information.
+* For instructions on creating a simple manifest file and starting a batch ingest, see [Using Batch Ingest](avalon6_using_batch_ingest).
+* For detailed information about the manifest file, see [Batch Ingest Package Format](avalon6_batch_ingest_package_format).
 
-For help with creating an Ingest Package and starting a Batch Ingest, see [Uploading Content With Batch Ingest](avalon6_uploading_content_with_batch_ingest).
-
-### Definitions
+## Definitions
 
 Batch Ingest
 : {{site.data.definitions.batch_ingest}}
@@ -36,69 +35,51 @@ Manifest File
 
 ### Invalid Manifest File
 
-Avalon checks for new spreadsheets once per minute. Upon detection, the system opens the spreadsheet and attempts to validate it for correct information. Spreadsheets fail validation for the following reasons:
+Upon detecting a new manifest file in the dropbox directory, Avalon validates the file for correct information. Manifest files fail validation for the following reasons:
 
 * File is corrupt
-* No username listed
-* The listed username account does not have permission to upload to the Collection
+* No username/email address listed
+* The listed username/email address is not a manager, editor, or depositor for the collection
 
-If the user account exists in the Avalon system, but the spreadsheet is invalid, the user receives a failure message from the system; multiple reasons may be listed.
-
-Example error message:
+If the username/email address is in the Avalon system, the user receives an error message:
     
     User USER_KEY does not have permission to add items to collection: COLLECTION_NAME
 
-If the user account does not exist (i.e. username left blank, entered incorrectly, or no email address is associated with the account), the failure message is sent to the notification email address for Avalon. The default notification email address is "avalon-notification@example.edu", and is located in `Settings.yml`:
-
-    email:
-      comments: 'avalon-comments@example.edu'
-      notifications: 'avalon-notifications@example.edu'
-      support: 'avalon-support@example.edu'
-
-{{site.data.alerts.important}}
-If your instance of Avalon is running on AWS, default emails will need to be verified with AWS first (by clicking a verify link in a message sent to the email address).
-{{site.data.alerts.end}}
+If the username/email address is not in Avalon (i.e. username left blank, typed incorrectly, no associated email address), the error message is sent to Avalon's default notification account; contact an Avalon administrator if error messages are not being received.
 
 ### Valid Manifest File
 
-When the spreadsheet passes validation, the user receives a message stating that the spreadsheet has been accepted:
+Once a manifest file passes validation, the user receives a success message _regarding validation only_ :
 
-    Your metadata package was validated and no errors were found. Your batch is now queued.
-    Manifest file: example_manifest_file.xlsx
+{% include image.html file="doc_images/manifest_success.png" alt="Example success message for a validated manifest file" max-width="550" %}
 
-This message does not imply a successful ingest, only that the sheet was accepted and the rows have been queued for ingest. Once the Batch Ingest has finished, the user receives a Batch Ingest report with any reported errors:
+This message does not imply a successful ingest, only a successful validation. At this point, the items in the manifest file have been queued for ingest and may begin appearing within the collection. Once the items have processed, the user receives a detailed report for both successful and failed items:
 
-{% include image.html file="doc_images/failed_ingest_message.png" alt="Example of a report for a failed batch ingest" max-width="850" %}
+{% include image.html file="doc_images/ingest_report.png" alt="Example report for a processed batch ingest" max-width="850" %}
 
-Reported errors always begin at Row 3. Use the row number and error description to locate and correct the object information causing the error. Refer to [Batch Ingest Package Format](avalon6_batch_ingest_package_format) for required syntax for each field. After correcting the errors, the Manifest File can be replayed.
+Use the report information to locate and correct item metadata; refer to [Batch Ingest Package Format](avalon6_batch_ingest_package_format) for detailed information and required syntax for each metadata field. After correcting any errors, the manifest file can be replayed.
 
 ## Replaying a Manifest File
 
-Batch Ingest reports contain a replay name following the format _universally-unique-id_original_filename_. For example:
+Replaying a manifest file can ingest failed items with corrections, but can also revise successful items with updated information.
+
+Batch ingest reports contain a replay name in the format _universally-unique-id_original_filename_. For example:
 
     2a29d341-7da8-44c1-a503-a0df44fd0337_example_manifest_file.xlsx
 
-Using the replay name, Avalon reruns a corrected spreadsheet and ingests previously failed items. Replaying also updates any ingested and unpublished media objects that received changes. 
-
-{{site.data.alerts.important}}
-Published media objects cannot be corrected using a replayed Manifest File. This method will always fail if Avalon is auto-publishing media objects.
-{{site.data.alerts.end}}
-
 To replay a Manifest File:
 
-1. Rename the original Manifest File to the replay name provided in the report email.
-2. Change any data that needs to be updated:
+1. Rename the original manifest file to the replay name provided in the batch ingest report.
+2. Open the manifest file.
+3. Enter new values for metadata fields that need updating:
    * Provide missing or incorrect data that caused an error.
-   * Update data for successfully ingested media objects (i.e. if the data didn't flag an error, but needs to be edited).
-3. DO NOT delete rows that receive no changes; leave them as is.
-4. Upload the Manifest File using the normal process.
-5. Re-upload the Content Files if they were removed for any reason (e.g. by automatic processes).
+   * Update data for successful items (i.e. the data didn't cause an error, but needs revision).
+4. Connect to the collection subdirectory; see [Connecting to a Dropbox](avalon6_connecting_to_a_dropbox) for help with this process.
+4. Upload the updated manifest file into the subdirectory.
+5. Re-upload the content files into the subdirectory if they were removed for any reason.
 
-Once Avalon detects the uploaded Manifest File, the system requeues the rows for ingest. Upon reaching an altered row, Avalon takes the following actions:
+Once Avalon detects the replayed manifest file, the updated items are requeued for ingest.
 
-* For previously failed rows, the row will rerun for ingest.
-* For previously ingested items, AValon checks if the media object is currently published:
-  * For published items, the row flags an error (published items may not be corrected using a replayed Manifest File).
-  * For unpublished items, the previously ingested media object is deleted, and a new media object is created using the updated data.
-
-After a Manifest File has been corrected and replayed, a user may make additional corrections and replay again immediately, but doing so will cause a changed media object to be processed twice (once for each replayed spreadsheet).
+{{site.data.alerts.warning}}
+Published items cannot be updated by replaying a manifest file. This method will always fail if Avalon is auto-publishing items. To turn off auto-publishing, set <b>Publish</b> in the manifest file to "No".
+{{site.data.alerts.end}}

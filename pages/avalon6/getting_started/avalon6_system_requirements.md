@@ -4,7 +4,7 @@ summary: "Examples of systems running the Avalon Media System and simple statist
 last_updated: January 2, 2017
 sidebar: avalon6_sidebar
 permalink: avalon6_system_requirements.html
-folder: avalon6
+folder: avalon6/getting_started
 ---
 
 There are no hard and fast system requirements for running Avalon, but you will want to choose your system depending on your collection size, expected usage, and desired responsiveness.  Below are several examples of systems currently running Avalon and simple statistics highlighting their throughput.

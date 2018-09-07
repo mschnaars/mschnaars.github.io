@@ -4,7 +4,7 @@ summary: "A list of formats and codecs that can be ingested and transcoded by Av
 last_updated: December 15, 2017
 sidebar: avalon6_sidebar
 permalink: avalon6_supported_source_formats_and_codecs.html
-folder: avalon6
+folder: avalon6/getting_started
 ---
 
 Avalon Media System uses FFmpeg, a multimedia framework which supports many common and uncommon source formats and codecs that can be ingested and transcoded to the kind of video or audio file that you want.*
